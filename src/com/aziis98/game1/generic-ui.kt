@@ -12,7 +12,7 @@ class UIContainer(val node: XmlNode) {
         val width = node.attributes["width"].asInt()
         val height = node.attributes["height"].asInt()
 
-        
+
     }
 
     private fun String?.asInt(): Int? {
