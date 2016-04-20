@@ -1,0 +1,29 @@
+<project>
+
+    <Directory name="src">
+
+        <Package name="com.aziis98.test">
+            <File name="Main.java" language="java">
+                <package>com.aziis98.test</package>
+                <class name="Main">
+                    <method static="true" public="true">
+                        <return-type>void</return-type>
+                        <paramethers>
+                            <paramether>
+                                <name>args</name>
+                                <type>
+                                    <array>java.lang.String</array>
+                                </type>
+                            </paramether>
+                        </paramethers>
+                        <body>
+                            
+                        </body>
+                    </method>
+                </class>
+            </File>
+        </Package>
+
+    </Directory>
+
+</project>
